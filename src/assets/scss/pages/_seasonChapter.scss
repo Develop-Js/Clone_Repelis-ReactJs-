@@ -1,0 +1,44 @@
+.name-season {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background-color: $dark2_blue;
+    padding: 1rem;
+    span {
+        font-size: 1.5rem;
+    }
+}
+
+.chapter-container {
+    display: grid;
+    grid-auto-rows: auto;
+    gap: 1rem;
+    color: $white;
+    .chapter-content {
+        // padding: 1rem;
+        background-color: $dark2_blue;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        // column-gap: 2rem;
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .info-chapter {
+            padding: 1rem 2rem 2rem;
+            .name-chapter {
+                font-size: 1.2rem;
+                margin-bottom: .5rem;
+            }
+            .chapter-air-date{
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+            .chapter-overview{
+                font-size: 1rem;
+                font-weight: 100;
+                text-align: justify;
+            }
+        }
+    }
+}

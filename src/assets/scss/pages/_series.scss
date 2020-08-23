@@ -1,0 +1,87 @@
+.buttons-series{
+    text-align: center;
+}
+
+.name-page-series {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.posters-container-series {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-auto-rows: auto;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    .poster-serie {
+        background-color: $dark2_blue;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        position: relative;
+
+        .figure {
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            &:hover .poster-play {
+                display: inherit;
+                color: $white;
+            }
+        }
+
+        .poster-play {
+            display: none;
+            // color:red;
+            font-size: 2rem;
+            position: absolute;
+            bottom: 50%;
+            left: 20%;
+            z-index: 2;
+        }
+        img {
+            border-radius: 5px;
+            max-width:100%;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: linear-gradient(red, red);
+                cursor: pointer;
+                filter: grayscale(100%);
+                transform: scale(1.1);
+                z-index: 1;
+            }
+        }
+        .info-serie {
+            min-width: 180px;
+            padding: 0.5rem 0.5rem 0.5rem 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .details {
+                width: 90%;
+                h2 {
+                    margin-bottom: 1rem;
+                }
+                .percent {
+                    font-size: 0.8rem;
+                    display: inline-block;
+                    padding: 0.5rem;
+                    border-radius: 5px;
+                    margin-bottom: 1rem;
+                }
+                p{
+                    color:$white;
+                    font-size: .8rem;
+                    padding: .2rem;
+                    font-weight: 300;
+                    margin:0;
+                    overflow: hidden;
+                }
+            }
+            a {
+                display: block;
+            }
+        }
+    }
+}

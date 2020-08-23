@@ -1,0 +1,34 @@
+@import "variables";
+@import "pages/home";
+@import "pages/search";
+@import "pages/movies";
+@import "pages/details";
+@import "pages/seasonChapter";
+@import "pages/series";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    // font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+    background-color: $black;
+    &::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: $ligth_blue;
+    }
+    &::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+        display: none;
+    }
+    &::-webkit-scrollbar:vertical,::-webkit-scrollbar:horizontal {
+        width:.3rem;
+    }
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

@@ -1,0 +1,15 @@
+
+
+.search-term{
+    background-color: $dark2_blue;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding:1rem;
+    span{
+        font-size: 1.8rem;
+        text-transform: uppercase;
+    }
+}
+.search-results {
+    background-color: $dark2_blue;
+}

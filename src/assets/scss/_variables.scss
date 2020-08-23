@@ -1,0 +1,99 @@
+$ligth_blue: #0093ff;
+$purple: #9400d3;
+$bright_red: #ff0000;
+$hover_red: #8a0202;
+$cake_red: #aa1449;
+$cake_pink: #ea0050;
+$simple_gray: #ffffff1a;
+$gray: #999999;
+$dark1_blue: #0a0d18;
+$dark2_blue: #0e121d;
+$black: #000000;
+$white: #ffffff;
+
+.over-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 7.5rem;
+}
+
+.movies-pages-container {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 7.5rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $white;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $white;
+}
+
+.btn {
+    margin-top: 1.7rem;
+    padding: 1rem 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    background-color: $simple_gray;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    i {
+        padding-right: 0.3rem;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: $hover_red;
+    }
+    // &:before{
+    //     font-family: "Font Awesome 5 Free";
+    //     font-weight: 900;
+    //     content:"\f144";
+    // }
+}
+
+
+
+.btn-series {
+    margin-top: 1.7rem;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    background-color: $simple_gray;
+    border: none;
+    color: $white;
+    border-radius: 10px;
+    margin-left: 1rem;
+    i {
+        padding-right: 0.3rem 1rem;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: $hover_red;
+    }
+    // &:before{
+    //     font-family: "Font Awesome 5 Free";
+    //     font-weight: 900;
+    //     content:"\f144";
+    // }
+}
+
+
