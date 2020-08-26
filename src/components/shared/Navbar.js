@@ -14,8 +14,8 @@ const Navbar = () => {
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/movies">Movies</Link></li>
 						<li><Link to="/series/1">Series</Link></li>
-						<li><Link to="/seasons">Seasons</Link></li>
-						<li><Link to="/chapters">Chapters</Link></li>
+						{/* <li><Link to="/seasons">Seasons</Link></li>
+						<li><Link to="/chapters">Chapters</Link></li> */}
 						<li>
 							<Form />
 						</li>

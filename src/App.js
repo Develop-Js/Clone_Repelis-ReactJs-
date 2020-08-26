@@ -19,8 +19,8 @@ const App = () => {
 			{/* <Form setTermSearch={setTermSearch} /> */}
 			<Switch>
 				<Route exacth path="/movies" component={MoviesPage} />
-				<Route exacth path="/seasons" component={SeasonsPage} />
-				<Route exacth path="/chapters" component={ChaptersPage} />
+				{/* <Route exacth path="/seasons" component={SeasonsPage} />
+				<Route exacth path="/chapters" component={ChaptersPage} /> */}
 				<Route exacth path="/series/:pageNum" component={SeriesPage} />
 				<Route exacth path="/details/tv/:idTv/:nameTv/:seasonNum" component={SeasonChapters} />
 				<Route exacth path="/search/:term" component={SearchPage} />
