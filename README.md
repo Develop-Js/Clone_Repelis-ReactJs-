@@ -4,6 +4,9 @@
 
 This project was created with **React Js** and the goal of learning web development
 
+### Live demo
+https://develop-js.github.io/Clone_Repelis-ReactJs-/.
+
 In the project directory, you can run:
 
 ### `npm install || npm i`
@@ -21,5 +24,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
   - Unit test with jest and Enzyme
   - (Maybe we can watch the movies)
 
-### Live demo
-https://develop-js.github.io/Clone_Repelis-ReactJs-/.
