@@ -1,15 +1,15 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import MoviesPage from './pages/MoviesPage';
-import Navbar from './components/shared/Navbar';
-import HomePage from './pages/HomePage';
-import SeriesPage from './pages/SeriesPage';
-import SeasonsPage from './pages/SeasonsPage';
-import ChaptersPage from './pages/ChaptersPage';
-import SearchPage from './pages/SearchPage';
-import Footer from './components/shared/Footer';
-import DetailsPage from './pages/DetailsPage';
-import SeasonChapters from './pages/SeasonChapters';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import MoviesPage from "./pages/MoviesPage";
+import Navbar from "./components/shared/Navbar";
+import HomePage from "./pages/HomePage";
+import SeriesPage from "./pages/SeriesPage";
+// import SeasonsPage from './pages/SeasonsPage';
+// import ChaptersPage from './pages/ChaptersPage';
+import SearchPage from "./pages/SearchPage";
+import Footer from "./components/shared/Footer";
+import DetailsPage from "./pages/DetailsPage";
+import SeasonChapters from "./pages/SeasonChapters";
 
 const App = () => {
 	// const [ termSearch, setTermSearch ] = useState('');

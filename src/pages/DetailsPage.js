@@ -14,7 +14,7 @@ const DetailsPage = () => {
 	const { name, seasons } = details;
 
 	const tvShow = { name, idTv: idPoster, seasons };
-	console.log(details);
+	// console.log(details);
 
 	return (
 		<section className="details-page">

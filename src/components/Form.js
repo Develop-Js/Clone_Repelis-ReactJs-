@@ -12,7 +12,7 @@ const Form = () => {
 		history.push('/search/' + state.state);
 		// }, 1);
 		e.currentTarget.reset();
-		console.log(state);
+		// console.log(state);
 	};
 
 	return (

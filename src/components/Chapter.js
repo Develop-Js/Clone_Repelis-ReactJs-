@@ -2,7 +2,6 @@ import React from 'react';
 
 import noImage from '../assets/img/noimage.png';
 const Chapter = ({ episode }) => {
-	console.log(episode);
 	const { episode_number, still_path, name, overview, air_date } = episode;
 
 	const image = still_path ? `https://image.tmdb.org/t/p/original${still_path}` : noImage;
